@@ -14,17 +14,17 @@
 
 <header class="l-header">
   <div class="container-fluid">
-    <h1 class="logo"><a href="<?php echo get_template_directory_uri(); ?>/"><img src="<?php echo get_template_directory_uri(); ?>/images/logoSample.jpg" alt="株式会社CLIMATESTAR'S"></a></h1>
+    <h1 class="logo"><a href="<?php echo home_url("/"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logoSample.jpg" alt="株式会社CLIMATESTAR'S"></a></h1>
     <div class="in">
       <div class="title">CLIMATESTAR'S </div>
       <nav class="gnavi hidden-xs">
         <ul>
           <!-- todo URL変更 -->
-          <li><a href="http://www.kurokitec.com/factory/">トップ</a></li>
-          <li><a href="http://www.kurokitec.com/factory/">会社概要</a></li>
-          <li><a href="http://www.kurokitec.com/factory/">事業内容</a></li>
-          <li><a href="http://www.kurokitec.com/info/">Blog</a></li>
-          <li><a href="http://www.kurokitec.com/recruit/">お問い合わせ</a></li>
+          <li><a href="<?php echo home_url("/"); ?>">トップ</a></li>
+          <li><a href="<?php echo home_url("/companyProfile"); ?>">会社概要</a></li>
+          <li><a href="<?php echo home_url("/bussinessContent"); ?>">事業内容</a></li>
+          <li><a href="<?php echo home_url("/blog"); ?>">Blog</a></li>
+          <li><a href="<?php echo home_url("/contact"); ?>">お問い合わせ</a></li>
         </ul>
                 <!-- / .gnavi --></nav>
                 <!-- / .in --></div>
