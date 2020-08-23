@@ -1,0 +1,9 @@
+.f_menu_list{
+  color: white;
+  list-style: none;
+  font-size: 15px;
+}
+.list{
+  color: white;
+  display: inline-block;
+}
