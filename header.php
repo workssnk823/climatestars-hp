@@ -12,29 +12,32 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<header>
-<nav class="navbar navbar-default" style="margin-bottom:0;">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
-      <span class="sr-only">メニュー</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-  </div>
-  <div id="bs-navbar-collapse-1" class="collapse navbar-collapse">
-    <ul class="nav navbar-nav">
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">PROFILE</a></li>
-      <li><a href="#">BLOG</a></li>
-      <li><a href="#">CONTACT</a></li>
-    </ul>
-  </div>
-</nav>
-<div id="top-vg">
-<img src="<?php echo get_template_directory_uri(); ?>/images/top.jpeg" alt="トップページ画像" >
-</div>
-</header>
+<header class="l-header">
+  <div class="container-fluid">
+    <h1 class="logo"><a href="<?php echo get_template_directory_uri(); ?>/"><img src="<?php echo get_template_directory_uri(); ?>/images/logoSample.jpg" alt="株式会社CLIMATESTAR'S"></a></h1>
+    <div class="in">
+      <div class="title">CLIMATESTAR'S </div>
+      <nav class="gnavi hidden-xs">
+        <ul>
+          <!-- todo URL変更 -->
+          <li><a href="http://www.kurokitec.com/factory/">トップ</a></li>
+          <li><a href="http://www.kurokitec.com/factory/">会社概要</a></li>
+          <li><a href="http://www.kurokitec.com/factory/">事業内容</a></li>
+          <li><a href="http://www.kurokitec.com/info/">Blog</a></li>
+          <li><a href="http://www.kurokitec.com/recruit/">お問い合わせ</a></li>
+        </ul>
+                <!-- / .gnavi --></nav>
+                <!-- / .in --></div>
+                <div class="btn_box visible-xs">
+                  <div class="menu_btn_wrapper">
+                    <div class="menu_btn"> <span></span> </div>
+                    <strong>MENU</strong>
+                    <!-- / .menu_btn_wrapper --></div>
+                    <!-- /.btn_box --></div>
+                    <!-- / .container-fluid --></div>
+                    <!-- / .l-header --></header>
+
+
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
