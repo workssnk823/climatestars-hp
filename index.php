@@ -2,8 +2,8 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>ウェブストエイト</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">    
+<title>test</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/wmystyle.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -48,7 +48,7 @@
 <p><img src="<?php echo get_template_directory_uri(); ?>/images/pc-wood.jpg" alt="6ヶ月コース画像"></p>
 <h2 class="text-center">しっかり6ヶ月コース</h2>
 <p>ホームページ作成からWeb集客まで一通り習得して売上拡大したい方向けのコース</p>
- 
+
 </div>
 <div class="col-md-6">
 <p><img src="<?php echo get_template_directory_uri(); ?>/images/pc-leaf.jpg" alt="1ヶ月コース画像"></p>
