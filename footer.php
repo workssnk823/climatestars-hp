@@ -20,7 +20,7 @@
                       <li><a href="http://www.kurokitec.com/about/thought/">代表メッセージ</a></li>
                       <li><a href="http://www.kurokitec.com/about/threemin/">活動方針</a></li>
                       <li><a href="http://www.kurokitec.com/about/threemin/">活動内容・コンセプト</a></li>
-                      <li><a href="http://www.kurokitec.com/about/threemin/">主な取引先</a></li>
+                      <li><a href="http://www.kurokitec.com/about/threemin/">主要取引先</a></li>
                     </ul>
                   </li>
                 </ul>
